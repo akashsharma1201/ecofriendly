@@ -1,0 +1,95 @@
+.mainContainer{
+    /* background-color:#ffffff ;  */
+    text-align: center;
+}
+
+.mainContainer h1{
+    color: rgb(16, 16, 16);
+    font-family:'Courier New', Courier;
+    font-size: 45px;
+}
+body{
+    background-color: rgba(234, 236, 237, 0.637);
+}
+.mainContainer .productList {
+    text-align: center;
+}
+.mainContainer .productList button{
+    background-color: rgba(11, 11, 11, 0.907);
+    color: #ffffff;
+    font-size: larger;
+    font-family: "Roboto";
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.productContainer {
+    margin-top:100px !important;
+    margin-bottom:100px !important;
+    width: 85%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row: auto;
+    gap: 50px;
+}
+.productCard{
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    /* box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.868); */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 15px;
+    /* border-radius: 5px; */
+    position: relative;
+}
+.productCard:hover{
+    margin-top: -5px;
+    transition-duration: 200ms;
+}
+.productCard img{
+    vertical-align:middle;
+    width: 90%;
+    height: 70%;
+    padding-top: 5px;
+    /* width: 250px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+
+.productDescription{
+    position: absolute;
+    bottom: 15px;
+}
+.productDescription .productName{
+    font-family:"Montserrat" ;
+}
+.productDescription .productPricing{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    vertical-align: baseline;    
+}
+.productPricing span{
+    color: rgba(30, 28, 28, 0.853);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+.productPricing del{
+    font-family: "Montserrat";
+    font-size: 12px;
+}
+.productPricing button{
+    background-color: rgba(11, 11, 11, 0.907);
+    color: #ffffff;
+    font-family: "Roboto";
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
